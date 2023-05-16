@@ -1,0 +1,50 @@
+.cajas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.cajita1{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(234, 248, 112);
+}
+.cajita2{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(144, 248, 112);
+}.cajita3{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(59, 152, 228);
+}.cajita4{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(193, 68, 231);
+}.cajita5{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(250, 62, 62);
+}.cajita6{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(204, 10, 178);
+}.cajita7{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(247, 140, 19);
+}.cajita8{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(217, 252, 21);
+}.cajita9{
+    color: rgb(58, 56, 55);
+    background-color:  rgb(123, 247, 52);
+}
+
+
+
+@media  (max-width: 768px){
+      .cajas{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media  (max-width: 320px){
+       .cajas{
+          grid-template-columns: 1fr;
+    }
+}
